@@ -21,34 +21,6 @@ This is a modern food ordering application built with React and Redux. Users can
 - **Vite 6.3.1**: Build tool and development server
 - **ESLint 9.22.0**: Code linting
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (latest LTS version recommended)
-- npm package manager
-
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone <repository-url>
-   cd <project-folder>
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-
-3. Start the development server
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to http://localhost:5173
-
-#
 ## Application Flow
 
 1. Users browse the menu and add items to cart
@@ -64,11 +36,5 @@ The application connects to a backend API for:
 - Retrieving order details
 - Updating existing orders
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
 
