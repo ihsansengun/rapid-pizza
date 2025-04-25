@@ -1,12 +1,74 @@
-# React + Vite
+# React Food Ordering Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a modern food ordering application built with React and Redux. Users can browse a menu, add items to their cart, place orders, and modify existing orders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Menu Browsing**: View all available food items with details
+- **Shopping Cart**: Add and remove items, adjust quantities
+- **Order Creation**: Submit orders with delivery information
+- **Order Management**: View and update existing orders
+- **Client-side Form Validation**: Ensures correct information is submitted
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React 19.0.0**: UI component library
+- **React Router 6.30.0**: For navigation and routing
+- **Redux (Redux Toolkit 2.7.0)**: State management
+- **TailwindCSS 4.1.4**: Styling
+- **Vite 6.3.1**: Build tool and development server
+- **ESLint 9.22.0**: Code linting
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- npm package manager
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to http://localhost:5173
+
+#
+## Application Flow
+
+1. Users browse the menu and add items to cart
+2. Cart displays selected items with the ability to modify quantities
+3. Users can proceed to checkout by creating an order
+4. After submitting an order, users can view and update their order details
+
+## API Integration
+
+The application connects to a backend API for:
+- Fetching menu items
+- Creating new orders
+- Retrieving order details
+- Updating existing orders
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request
+
